@@ -4,10 +4,10 @@ public class HashMapExample {
 	public static void main(String[] args) {
 		//Old style non generic
 	Map map=new HashMap();
-	map.put(1, "a");
-	map.put(2, "b");
-	map.put(3, "c");
-	map.put(4, "d");
+	map.put(10, "a");
+	map.put(20, "b");
+	map.put(30, "c");
+	map.put(40, "d");
 	
 	Set set=map.entrySet();
 	
@@ -21,6 +21,7 @@ public class HashMapExample {
 	m1.put(1, "mango");
 	m1.put(2, "apple");
 	m1.put(3, "grapes");
+	m1.putAll(map);
 	for(Map.Entry m:m1.entrySet()) {
 		System.out.println(m.getKey()+" "+m.getValue());
 	}
