@@ -13,8 +13,8 @@
     System.out.println(entry.getKey()+" = "+entry.getValue());  
     }  
     Properties p1=new Properties();  
-    p1.setProperty("name","Sonoo Jaiswal");  
-    p1.setProperty("email","sonoojaiswal@javatpoint.com");  
+    p1.setProperty("name","Priyanka C");  
+    p1.setProperty("email","priyanka.c@entlogics.com");  
       
     p1.store(new FileWriter("info.properties"),"Java Properties Example");  
     }  
