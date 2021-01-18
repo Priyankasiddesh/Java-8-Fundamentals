@@ -22,7 +22,7 @@ public class AbstractTest extends AbstractClass{
         System.out.println("Addition: "+result1);    
         System.out.println("Substraction: "+result2);    
         System.out.println("Multiplication: "+result3);   
-        
+        System.out.println("Hello");
         
     }    
 }    
