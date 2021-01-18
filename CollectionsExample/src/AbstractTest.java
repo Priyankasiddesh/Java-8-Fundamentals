@@ -21,6 +21,8 @@ public class AbstractTest extends AbstractClass{
         int result3 = AbstractClass.multiply(20, 10); // calling static method    
         System.out.println("Addition: "+result1);    
         System.out.println("Substraction: "+result2);    
-        System.out.println("Multiplication: "+result3);    
+        System.out.println("Multiplication: "+result3);   
+        
+        
     }    
 }    
