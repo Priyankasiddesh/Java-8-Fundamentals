@@ -20,7 +20,7 @@ public class ParallelArraySorting {
 		System.out.println("array elements after sorting");
 		
 		for(int j:arr) {
-			System.out.print(+j+" ");
+			System.out.print(+j+" ");  
 		}
 		
 
